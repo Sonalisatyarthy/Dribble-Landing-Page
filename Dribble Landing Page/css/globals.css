@@ -1,0 +1,43 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+
+
+
+@font-face {
+  font-family: "Bahnschrift-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/BAHNSCHRIFT.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Bahnschrift-BoldCondensed";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/BAHNSCHRIFT 1.TTF");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  min-width: 920px;
+  min-height: 780px;
+  margin: 0%;  
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}

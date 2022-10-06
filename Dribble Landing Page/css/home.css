@@ -1,0 +1,625 @@
+/* screen - home */
+
+.home {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  overflow: hidden;
+  width: 1900px;
+  height: 1080px;
+}
+
+.home .overlap-group3 {
+  height: 1079px; 
+  margin-left: -8px;
+  margin-top: -10px;
+  position: relative;
+  width: 2100px; 
+}
+
+.home .slide_01 {
+  background-image: url(../img/mask-group-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 1080px;
+  justify-content: space-between;
+  left: 0;
+ 
+  top: 0;
+  width: 1920px;
+}
+
+.home .title {
+  align-items: flex-end;
+  align-self: flex-end;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 264.5px;
+  margin-left: 252px;
+  min-height: 314px;
+  padding: 0 45px;
+  width: 320px;
+}
+
+.home .divider {
+  align-self: center;
+  background-image: url(../img/divider@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 42px;
+  margin-left: 1.2px;
+  width: 10px;
+}
+
+.home .overlap-group2 {
+  height: 160px;
+  margin-top: 8px;
+  position: relative;
+  width: 227px;
+}
+
+.home .museum-of-modern-artmoma {
+  color: var(--white);
+  font-family: var(--font-family-bahnschrift-regular);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  height: 103px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 227px;
+}
+
+.home .place {
+  left: 60px;
+  letter-spacing: 6.72px;
+  line-height: 40px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  top: 120px;
+  white-space: nowrap;
+  font-family: var(--font-family-bahnschrift-bold);
+  font-size: var(--font-size-m);
+}
+
+.home .btn_casestudy {
+  
+  background-color: var(--orange);
+  display: flex;
+  height: 80px;
+  justify-content: flex-end;
+  margin-right: 35px;
+  margin-top: 235px;
+  min-width: 140px;
+  padding: 20px 31px;
+  box-shadow: inset var(--orange);
+  outline: none;
+  transition: ease-out 0,3s;
+  z-index: 1;
+  position: absolute;
+  
+}
+
+.home .btn_casestudy:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.home .btn_casestudy:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  right: 100%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: orangered;
+}
+
+.home .btn_casestudy:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+
+}
+
+.home .surname {
+  align-self: center;
+  color: var(--white);
+  font-family: var(--font-family-bahnschrift-bold);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  line-height: 14px;
+  min-height: 16px;
+  min-width: 84px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.home .group-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 28px;
+  min-width: 106px;
+}
+
+.home .overlap-group1 {
+  height: 668px;
+  position: absolute;
+  width: 106px;
+}
+
+.home .overlap-group {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  height: 668px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 106px;
+  padding: 185px 0;
+  position: absolute;
+  top: 0;
+}
+
+.home .light-consulting-sales {
+  letter-spacing: 6.72px;
+  line-height: 20px;
+  margin-top: -80px;
+  min-height: 280px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.home .nav_02 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 130px;
+  position: absolute;
+  top: 510px;
+  width: 106px;
+}
+
+.home .text-3 {
+  letter-spacing: 6.72px;
+  line-height: 40px;
+  margin-bottom: -22px;
+  margin-left: 0.98px;
+  margin-top: -6px;
+  min-height: 18px;
+  min-width: 31px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.home .btn_-container {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 67px;
+  min-width: flex;
+  margin-left: -5px;
+}
+
+.home .btn_prev {
+  align-items: flex-end;
+  background-color: var(--black);
+  display: flex;
+  height: 70px;
+  justify-content: flex-end;
+  padding: 29.7px 22.8px;
+  box-shadow: inset var(--black);
+  outline: none;
+  width: 15px;
+ 
+}
+.home .btn_prev:hover {
+  background-color: orangered;
+  cursor: pointer;
+  color: white;
+}
+
+.home .chevron-small-right {
+  height: 11px;
+  object-fit: cover;
+  width: 6px;
+}
+
+.home .btn_next {
+  align-items: flex-end;
+  background-color: var(--orange);
+  display: flex;
+  height: 70px;
+  justify-content: flex-end;
+  padding: 29.7px 22.8px;
+  box-shadow: inset var(--orange);
+  outline: none;
+  width: 20px;
+ 
+}
+.home .btn_next:hover {
+  background-color: black;
+  cursor: pointer;
+  color: white;
+}
+
+.home .menu {
+  display: flex;
+  height: 98px;
+  left: 830px;
+  position: absolute;
+  top: 991px;
+  width: 1060px;
+}
+
+.home .menu-1 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex: 1;
+  height: 98px;
+  min-width: 1080px;
+  padding: 0 77px;
+}
+
+.home .btn {
+  display: flex;
+  height: 102px;
+  margin-top: 4.0px;
+  width: 225px;
+  border: var(--white);
+  text-align: center;
+  outline: var(--white);
+  color: var(--white);
+  transition: ease-out 0,3s;
+  z-index: 1;
+  position: absolute;
+  margin-left: -77px;
+}
+
+.home .btn:hover {
+  cursor: pointer;
+  color: white;
+}
+
+
+.home .btn:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  right: 100%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: orangered;
+}
+
+
+.home .btn:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+
+}
+
+.home .about-us {
+  flex: 1;
+  letter-spacing: 0.42px;
+  line-height: 102px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  text-align: center;
+  white-space: nowrap;
+  width: 68px;
+  
+}
+
+.home .btn-1 {
+  display: flex;
+  height: 102px;
+  margin-top: 4.0px;
+  width: 225px;
+  border: var(--white);
+  outline: var(--white);
+  color: var(--white);
+  transition: ease-out 0,3s;
+  z-index: 1;
+  position: absolute;
+  margin-left: 148px;
+}
+.home .btn-1:hover {
+  cursor: pointer;
+  color: white;
+}
+
+
+.home .btn-1:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  right: 100%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: orangered;
+}
+
+
+.home .btn-1:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+
+}
+
+
+.home .services {
+  flex: 1;
+  letter-spacing: 0.42px;
+  line-height: 102px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  text-align: center;
+  white-space: nowrap;
+  width: 68px;
+}
+
+.home .btn-2 {
+  display: flex;
+  height: 102px;
+  margin-top: 4.0px;
+  width: 225px;
+  border: var(--white);
+  outline: var(--white);
+  color: var(--white);
+  transition: ease-out 0,3s;
+  z-index: 1;
+  position: absolute;
+  margin-left: 373px;
+}
+
+.home .btn-2:hover {
+  cursor: pointer;
+  color: white;
+}
+
+
+.home .btn-2:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  right: 100%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: orangered;
+}
+
+
+.home .btn-2:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+
+}
+.home .brands {
+  flex: 1;
+  letter-spacing: 0.42px;
+  line-height: 102px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  text-align: center;
+  white-space: nowrap;
+  width: 68px;
+}
+
+.home .btn-3 {
+  display: flex;
+  height: 102px;
+  margin-top: 4.0px;
+  width: 225px;
+  border: var(--white);
+  outline: var(--white);
+  color: var(--white);
+  transition: ease-out 0,3s;
+  z-index: 1;
+  position: absolute;
+  margin-left: 598px;
+}
+
+.home .btn-3:hover {
+  cursor: pointer;
+  color: white;
+}
+
+
+.home .btn-3:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  right: 100%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: orangered;
+}
+
+
+.home .btn-3:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+
+}
+
+.home .references {
+  flex: 1;
+  letter-spacing: 0.42px;
+  line-height: 102px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  text-align: center;
+  white-space: nowrap;
+  width: 92px;
+}
+
+.home .btn-4 {
+  display: flex;
+  height: 102px;
+  margin-top: 4.0px;
+  width: 225px;
+  border: var(--orangered);
+  background-image: url(../img/bg-4@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  transition: ease-out 0,3s;
+  background-color: orangered;
+  z-index: 1;
+  position: absolute;
+  margin-left: 823px;
+}
+
+.home .btn-4:hover {
+  cursor: pointer;
+  color: white;
+}
+
+
+.home .btn-4:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  right: 100%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: orangered;
+}
+
+
+.home .btn-4:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+
+}
+.home .place-1 {
+  color: var(--white);
+  flex: 1;
+  font-family: var(--font-family-bahnschrift-bold);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  line-height: 14px;
+  margin-bottom: 38px;
+  margin-left: 55px;
+  margin-right: 90px;
+  background-color: orangered;
+  margin-top: 44px;
+  text-align: center;
+  white-space: nowrap;
+  width: 62px;
+}
+
+.home .logo {
+  display: flex;
+  height: 167px;
+  left: 68px;
+  position: absolute;
+  top: 70px;
+  width: 174px;
+}
+
+.home .ibf_logo_light {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  flex: 1;
+  width: 174px;
+}
+
+.home .logo-1 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  height: 63px;
+  margin-bottom: 19px;
+  margin-left: 22px;
+  margin-right: 22px;
+  min-width: calc(100.00% - 44px);
+}
+
+.home .flex-col {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -2.0px;
+  min-height: 65px;
+  width: 106px;
+}
+
+.home .ibf_logo {
+  height: 42px;
+  margin-left: 1.0px;
+  object-fit: cover;
+  width: 104px;
+}
+
+.home .place-2 {
+  letter-spacing: 11.14px;
+  line-height: 14px;
+  margin-top: 7px;
+  min-height: 16px;
+  white-space: nowrap;
+}
+
+.home .overlap-group-1 {
+  align-items: flex-end;
+  background-color: var(--orange);
+  display: flex;
+  height: 18px;
+  justify-content: flex-end;
+  margin-left: 6px;
+  min-width: 18px;
+  padding: 2px 1px;
+}
+
+.home .th {
+  color: var(--white);
+  font-family: var(--font-family-bahnschrift-bold);
+  font-size: var(--font-size-s);
+  font-weight: 780;
+  letter-spacing: 0.30px;
+  line-height: 10px;
+  min-height: 12px;
+  min-width: 14px;
+  text-align: center;
+  white-space: nowrap;
+}

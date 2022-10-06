@@ -1,0 +1,34 @@
+:root { 
+  --black: #000000;
+  --orange: #ff521c;
+  --white: #ffffff;
+
+
+  
+  --font-size-l: 16px;
+  --font-size-m: 14px;
+  --font-size-s: 10px;
+  --font-size-xl: 26px;
+ 
+  --font-family-bahnschrift-bold: "Bahnschrift-Bold", Helvetica;
+  --font-family-bahnschrift-boldcondensed: "Bahnschrift-BoldCondensed", Helvetica;
+  --font-family-bahnschrift-regular: "Bahnschrift-Regular", Helvetica;
+}
+.bahnschrift-bold-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-bahnschrift-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+.bahnschrift-boldcondensed-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-bahnschrift-boldcondensed);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+ 
+}
